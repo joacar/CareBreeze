@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{BD74D898-82D4-4CA9-B95A-B105800D6CAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CareBreeze.WebApp", "src\CareBreeze.WebApp\CareBreeze.WebApp.csproj", "{D8A3F999-A5D1-493E-98A9-6771E31790F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareBreeze.Data", "src\CareBreeze.Data\CareBreeze.Data.csproj", "{B18AF700-15C8-4355-B53D-2B3C995321F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareBreeze.Data.Tests", "tests\CareBreeze.Data.Tests\CareBreeze.Data.Tests.csproj", "{45257851-D547-4E12-A54D-C24FC1EE7D4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareBreeze.Core", "src\CareBreeze.Core\CareBreeze.Core.csproj", "{33B3B6E0-704E-43F7-BC12-550D8B61D9D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{93740FA3-2BDB-4749-8DC0-AE5389D96A47}"
+	ProjectSection(SolutionItems) = preProject
+		InitializationData.json = InitializationData.json
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareBreeze", "src\CareBreeze\CareBreeze.csproj", "{6E85663E-FEA2-4068-8D1C-D01F5ECCB190}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8A3F999-A5D1-493E-98A9-6771E31790F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8A3F999-A5D1-493E-98A9-6771E31790F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8A3F999-A5D1-493E-98A9-6771E31790F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8A3F999-A5D1-493E-98A9-6771E31790F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B18AF700-15C8-4355-B53D-2B3C995321F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B18AF700-15C8-4355-B53D-2B3C995321F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B18AF700-15C8-4355-B53D-2B3C995321F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B18AF700-15C8-4355-B53D-2B3C995321F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45257851-D547-4E12-A54D-C24FC1EE7D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45257851-D547-4E12-A54D-C24FC1EE7D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45257851-D547-4E12-A54D-C24FC1EE7D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45257851-D547-4E12-A54D-C24FC1EE7D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33B3B6E0-704E-43F7-BC12-550D8B61D9D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33B3B6E0-704E-43F7-BC12-550D8B61D9D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33B3B6E0-704E-43F7-BC12-550D8B61D9D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33B3B6E0-704E-43F7-BC12-550D8B61D9D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E85663E-FEA2-4068-8D1C-D01F5ECCB190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E85663E-FEA2-4068-8D1C-D01F5ECCB190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E85663E-FEA2-4068-8D1C-D01F5ECCB190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E85663E-FEA2-4068-8D1C-D01F5ECCB190}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{45257851-D547-4E12-A54D-C24FC1EE7D4D} = {BD74D898-82D4-4CA9-B95A-B105800D6CAE}
+	EndGlobalSection
+EndGlobal

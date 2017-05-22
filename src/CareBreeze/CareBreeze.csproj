@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <AssemblyName>CareBreeze</AssemblyName>
+    <RootNamespace>CareBreeze</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CareBreeze.Core\CareBreeze.Core.csproj" />
+    <ProjectReference Include="..\CareBreeze.Data\CareBreeze.Data.csproj" />
+  </ItemGroup>
+
+</Project>
